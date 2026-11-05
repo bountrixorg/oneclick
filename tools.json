@@ -1,75 +1,213 @@
 {
-  "top_20": [
-    { "name": "sublist3r", "url": "https://github.com/aboul3la/Sublist3r", "install_command": "go install github.com/aboul3la/Sublist3r@latest" },
-    { "name": "nuclei", "url": "https://github.com/projectdiscovery/nuclei", "install_command": "go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest" },
-    { "name": "httpx", "url": "https://github.com/projectdiscovery/httpx", "install_command": "go install github.com/projectdiscovery/httpx/cmd/httpx@latest" },
-    { "name": "subfinder", "url": "https://github.com/projectdiscovery/subfinder", "install_command": "go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest" },
-    { "name": "arjun", "url": "https://github.com/s0md3v/Arjun", "install_command": "go install github.com/s0md3v/Arjun@latest" },
-    { "name": "amass", "url": "https://github.com/owasp-amass/amass", "install_command": "go install github.com/owasp-amass/amass/v3/cmd/amass@latest" },
-    { "name": "xsstrike", "url": "https://github.com/s0md3v/XSStrike", "install_command": "go install github.com/s0md3v/XSStrike@latest" },
-    { "name": "dalfox", "url": "https://github.com/hahwul/dalfox", "install_command": "go install github.com/hahwul/dalfox/v2/cmd/dalfox@latest" },
-    { "name": "massdns", "url": "https://github.com/blechschmidt/massdns", "install_command": "go install github.com/blechschmidt/massdns@latest" },
-    { "name": "assetfinder", "url": "https://github.com/tomnomnom/assetfinder", "install_command": "go install github.com/tomnomnom/assetfinder@latest" },
-    { "name": "dnsx", "url": "https://github.com/projectdiscovery/dnsx", "install_command": "go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest" },
-    { "name": "gauplus", "url": "https://github.com/bp0lr/gauplus", "install_command": "go install github.com/bp0lr/gauplus@latest" },
-    { "name": "waybackurls", "url": "https://github.com/tomnomnom/waybackurls", "install_command": "go install github.com/tomnomnom/waybackurls@latest" },
-    { "name": "ffuf", "url": "https://github.com/ffuf/ffuf", "install_command": "go install github.com/ffuf/ffuf@latest" },
-    { "name": "unfurl", "url": "https://github.com/tomnomnom/unfurl", "install_command": "go install github.com/tomnomnom/unfurl@latest" },
-    { "name": "httprobe", "url": "https://github.com/tomnomnom/httprobe", "install_command": "go install github.com/tomnomnom/httprobe@latest" },
-    { "name": "qsreplace", "url": "https://github.com/tomnomnom/qsreplace", "install_command": "go install github.com/tomnomnom/qsreplace@latest" },
-    { "name": "findomain", "url": "https://github.com/findomain/findomain", "install_command": "go install github.com/findomain/findomain@latest" },
-    { "name": "lazyrecon", "url": "https://github.com/nahamsec/lazyrecon", "install_command": "go install github.com/nahamsec/lazyrecon@latest" },
-    { "name": "reconftw", "url": "https://github.com/six2dez/reconftw", "install_command": "go install github.com/six2dez/reconftw@latest" }
+  "top_10": [
+    { "name": "nmap", "url": "https://nmap.org/", "install_command": "sudo apt install -y nmap", "category": "Information Gathering", "priority": "Critical" },
+    { "name": "nuclei", "url": "https://github.com/projectdiscovery/nuclei", "install_command": "go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest", "category": "Vulnerability Analysis", "priority": "Critical" },
+    { "name": "subfinder", "url": "https://github.com/projectdiscovery/subfinder", "install_command": "go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest", "category": "Information Gathering", "priority": "Critical" },
+    { "name": "httpx", "url": "https://github.com/projectdiscovery/httpx", "install_command": "go install github.com/projectdiscovery/httpx/cmd/httpx@latest", "category": "Web Application Analysis", "priority": "Critical" },
+    { "name": "ffuf", "url": "https://github.com/ffuf/ffuf", "install_command": "go install github.com/ffuf/ffuf@latest", "category": "Fuzzing", "priority": "High" },
+    { "name": "sqlmap", "url": "https://sqlmap.org/", "install_command": "sudo apt install -y sqlmap", "category": "Database Assessment", "priority": "Critical" },
+    { "name": "dalfox", "url": "https://github.com/hahwul/dalfox", "install_command": "cargo install dalfox", "category": "Web Application Analysis", "priority": "Critical" },
+    { "name": "amass", "url": "https://github.com/owasp-amass/amass", "install_command": "go install github.com/owasp-amass/amass/v4/...@latest", "category": "Information Gathering", "priority": "Critical" },
+    { "name": "gobuster", "url": "https://github.com/OJ/gobuster", "install_command": "sudo apt install -y gobuster", "category": "Web Application Analysis", "priority": "Critical" },
+    { "name": "subdominator", "url": "https://github.com/RevoltSecurities/Subdominator", "install_command": "pipx install subdominator", "category": "Information Gathering", "priority": "Critical" }
   ],
-  "all_tools": [
-    { "name": "subscraper", "url": "https://github.com/m8r0wn/subscraper", "install_command": "go install github.com/m8r0wn/subscraper@latest" },
-    { "name": "anubis", "url": "https://github.com/jonluca/Anubis", "install_command": "go install github.com/jonluca/Anubis@latest" },
-    { "name": "shodan", "url": "https://github.com/achillean/shodan-python", "install_command": "go install github.com/achillean/shodan-python@latest" },
-    { "name": "uro", "url": "https://github.com/s0md3v/uro", "install_command": "go install github.com/s0md3v/uro@latest" },
-    { "name": "knockpy", "url": "https://github.com/guelfoweb/knock", "install_command": "go install github.com/guelfoweb/knock@latest" },
-    { "name": "dnsrecon", "url": "https://github.com/darkoperator/dnsrecon", "install_command": "go install github.com/darkoperator/dnsrecon@latest" },
-    { "name": "naabu", "url": "https://github.com/projectdiscovery/naabu", "install_command": "go install github.com/projectdiscovery/naabu/cmd/naabu@latest" },
-    { "name": "notify", "url": "https://github.com/projectdiscovery/notify", "install_command": "go install github.com/projectdiscovery/notify/cmd/notify@latest" },
+  "essential_categories": {
+    "1. Information Gathering": {
+      "priority": "Critical",
+      "tools": [
+        { "name": "sublist3r", "url": "https://github.com/aboul3la/Sublist3r", "install_command": "pipx install git+https://github.com/aboul3la/Sublist3r.git" },
+        { "name": "assetfinder", "url": "https://github.com/tomnomnom/assetfinder", "install_command": "go install github.com/tomnomnom/assetfinder@latest" },
+        { "name": "findomain", "url": "https://github.com/findomain/findomain", "install_command": "cargo install findomain" },
+        { "name": "subscraper", "url": "https://github.com/m8r0wn/subscraper", "install_command": "pipx install subscraper" },
+        { "name": "anubis", "url": "https://github.com/jonluca/Anubis", "install_command": "go install github.com/jonluca/Anubis@latest" },
+        { "name": "knockpy", "url": "https://github.com/guelfoweb/knock", "install_command": "pipx install git+https://github.com/guelfoweb/knock.git" },
+        { "name": "github_subdomains", "url": "https://github.com/gwen001/github-subdomains", "install_command": "go install github.com/gwen001/github-subdomains@latest" },
+        { "name": "lazyrecon", "url": "https://github.com/nahamsec/lazyrecon", "install_command": "git clone https://github.com/nahamsec/lazyrecon.git" },
+        { "name": "reconftw", "url": "https://github.com/six2dez/reconftw", "install_command": "git clone https://github.com/six2dez/reconftw.git && cd reconftw && sudo ./install.sh" },
+        { "name": "shodanx", "url": "https://github.com/sanjai-AK47/ShodanX", "install_command": "pipx install git+https://github.com/sanjai-AK47/ShodanX.git" },
+        { "name": "shodan", "url": "https://github.com/achillean/shodan-python", "install_command": "pipx install shodan" },
+        { "name": "theharvester", "url": "https://github.com/laramies/theHarvester", "install_command": "pipx install theharvester" },
+        { "name": "spiderfoot", "url": "https://github.com/smicallef/spiderfoot", "install_command": "pipx install spiderfoot" },
+        { "name": "dnsenum", "url": "https://github.com/fgeek/dnsenum", "install_command": "sudo apt install -y dnsenum" },
+        { "name": "fierce", "url": "https://github.com/mschwager/fierce", "install_command": "pipx install fierce" }
+      ]
+    },
+    "2. Vulnerability Analysis": {
+      "priority": "Critical",
+      "tools": [
+        { "name": "nuclei-templates", "url": "https://github.com/projectdiscovery/nuclei-templates", "install_command": "git clone https://github.com/projectdiscovery/nuclei-templates.git" },
+        { "name": "nikto", "url": "https://github.com/sullo/nikto", "install_command": "sudo apt install -y nikto" },
+        { "name": "lynis", "url": "https://github.com/CISOfy/lynis", "install_command": "sudo apt install -y lynis" },
+        { "name": "openvas", "url": "https://www.openvas.org/", "install_command": "sudo apt install -y openvas" },
+        { "name": "wpscan", "url": "https://github.com/wpscanteam/wpscan", "install_command": "sudo gem install wpscan" },
+        { "name": "jobert", "url": "https://github.com/OJ/gobuster", "install_command": "sudo apt install -y gobuster" },
+        { "name": "searchsploit", "url": "https://github.com/offensive-security/exploitdb", "install_command": "sudo apt install -y exploitdb" }
+      ]
+    },
+    "3. Web Application Analysis": {
+      "priority": "Critical",
+      "tools": [
+        { "name": "dnsx", "url": "https://github.com/projectdiscovery/dnsx", "install_command": "go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest" },
+        { "name": "naabu", "url": "https://github.com/projectdiscovery/naabu", "install_command": "go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest" },
+        { "name": "massdns", "url": "https://github.com/blechschmidt/massdns", "install_command": "sudo apt install -y massdns" },
+        { "name": "masscan", "url": "https://github.com/robertdavidgraham/masscan", "install_command": "sudo apt install -y masscan" },
+        { "name": "puredns", "url": "https://github.com/d3mondev/puredns", "install_command": "go install github.com/d3mondev/puredns/v2@latest" },
+        { "name": "dnsrecon", "url": "https://github.com/darkoperator/dnsrecon", "install_command": "pipx install dnsrecon" },
+        { "name": "dnsgen", "url": "https://github.com/ProjectAnte/dnsgen", "install_command": "pipx install dnsgen" },
+        { "name": "mapcidr", "url": "https://github.com/projectdiscovery/mapcidr", "install_command": "go install github.com/projectdiscovery/mapcidr/cmd/mapcidr@latest" },
+        { "name": "dirsearch", "url": "https://github.com/maurosoria/dirsearch", "install_command": "sudo apt install -y dirsearch || pipx install dirsearch" },
+        { "name": "waybackurls", "url": "https://github.com/tomnomnom/waybackurls", "install_command": "go install github.com/tomnomnom/waybackurls@latest" },
+        { "name": "gospider", "url": "https://github.com/jaeles-project/gospider", "install_command": "go install github.com/jaeles-project/gospider@latest" },
+        { "name": "hakrawler", "url": "https://github.com/hakluke/hakrawler", "install_command": "go install github.com/hakluke/hakrawler@latest" },
+        { "name": "gowitness", "url": "https://github.com/sensepost/gowitness", "install_command": "go install github.com/sensepost/gowitness@latest" },
+        { "name": "meg", "url": "https://github.com/tomnomnom/meg", "install_command": "go install github.com/tomnomnom/meg@latest" },
+        { "name": "aquatone", "url": "https://github.com/michenriksen/aquatone", "install_command": "go install github.com/michenriksen/aquatone@latest" },
+        { "name": "whatweb", "url": "https://github.com/urbanadventurer/WhatWeb", "install_command": "sudo apt install -y whatweb" },
+        { "name": "wafw00f", "url": "https://github.com/EnableSecurity/wafw00f", "install_command": "pipx install wafw00f" },
+        { "name": "katana", "url": "https://github.com/projectdiscovery/katana", "install_command": "go install github.com/projectdiscovery/katana/cmd/katana@latest" },
+        { "name": "feroxbuster", "url": "https://github.com/epi052/feroxbuster", "install_command": "sudo apt install -y feroxbuster" },
+        { "name": "gau", "url": "https://github.com/lc/gau", "install_command": "go install github.com/lc/gau/v2/cmd/gau@latest" }
+      ]
+    },
+    "4. Database Assessment": {
+      "priority": "Critical",
+      "tools": [
+        { "name": "commix", "url": "https://github.com/commixproject/commix", "install_command": "pipx install commix" },
+        { "name": "nosqlmap", "url": "https://github.com/codingo/NoSQLMap", "install_command": "pipx install git+https://github.com/codingo/NoSQLMap.git" },
+        { "name": "sqlitebrowser", "url": "https://sqlitebrowser.org/", "install_command": "sudo apt install -y sqlitebrowser" }
+      ]
+    },
+    "5. Password Attacks": {
+      "priority": "High",
+      "tools": [
+        { "name": "hydra", "url": "https://github.com/vanhauser-thc/thc-hydra", "install_command": "sudo apt install -y hydra" },
+        { "name": "john", "url": "https://github.com/openwall/john", "install_command": "sudo apt install -y john" },
+        { "name": "hashcat", "url": "https://github.com/hashcat/hashcat", "install_command": "sudo apt install -y hashcat" },
+        { "name": "medusa", "url": "https://github.com/jmk-foofus/medusa", "install_command": "sudo apt install -y medusa" },
+        { "name": "patator", "url": "https://github.com/lanmaster53/patator", "install_command": "pipx install patator" },
+        { "name": "crunch", "url": "https://sourceforge.net/projects/crunch-wordlist/", "install_command": "sudo apt install -y crunch" },
+        { "name": "cewl", "url": "https://github.com/digininja/CeWL", "install_command": "sudo apt install -y cewl" }
+      ]
+    },
+    "6. Wireless Attacks": {
+      "priority": "Specialized",
+      "tools": [
+        { "name": "aircrack-ng", "url": "https://github.com/aircrack-ng/aircrack-ng", "install_command": "sudo apt install -y aircrack-ng" },
+        { "name": "wifite", "url": "https://github.com/derv82/wifite2", "install_command": "sudo apt install -y wifite" },
+        { "name": "kismet", "url": "https://www.kismetwireless.net/", "install_command": "sudo apt install -y kismet" },
+        { "name": "reaver", "url": "https://github.com/t6x/reaver-wps-fork-t6x", "install_command": "sudo apt install -y reaver" }
+      ]
+    },
+    "7. Exploitation Tools": {
+      "priority": "Critical",
+      "tools": [
+        { "name": "xsstrike", "url": "https://github.com/s0md3v/XSStrike", "install_command": "git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike && pip install -r requirements.txt" },
+        { "name": "arjun", "url": "https://github.com/s0md3v/Arjun", "install_command": "pipx install arjun" },
+        { "name": "corsy", "url": "https://github.com/s0md3v/Corsy", "install_command": "git clone https://github.com/s0md3v/Corsy.git && cd Corsy && pip install -r requirements.txt" },
+        { "name": "smuggler", "url": "https://github.com/defparam/smuggler", "install_command": "git clone https://github.com/defparam/smuggler.git" },
+        { "name": "subjack", "url": "https://github.com/haccer/subjack", "install_command": "go install github.com/haccer/subjack@latest" },
+        { "name": "padbuster", "url": "https://github.com/AonCyberLabs/PadBuster", "install_command": "git clone https://github.com/AonCyberLabs/PadBuster.git" },
+        { "name": "metasploit-framework", "url": "https://github.com/rapid7/metasploit-framework", "install_command": "sudo apt install -y metasploit-framework" },
+        { "name": "searchsploit", "url": "https://www.exploit-db.com/", "install_command": "sudo apt install -y exploitdb" },
+        { "name": "routersploit", "url": "https://github.com/threat9/routersploit", "install_command": "pipx install git+https://github.com/threat9/routersploit.git" }
+      ]
+    },
+    "8. Sniffing & Spoofing": {
+      "priority": "High",
+      "tools": [
+        { "name": "wireshark", "url": "https://www.wireshark.org/", "install_command": "sudo apt install -y wireshark" },
+        { "name": "tcpdump", "url": "https://www.tcpdump.org/", "install_command": "sudo apt install -y tcpdump" },
+        { "name": "ettercap", "url": "https://github.com/Ettercap/ettercap", "install_command": "sudo apt install -y ettercap-graphical" },
+        { "name": "bettercap", "url": "https://github.com/bettercap/bettercap", "install_command": "sudo apt install -y bettercap" },
+        { "name": "responder", "url": "https://github.com/lgandx/Responder", "install_command": "sudo apt install -y responder" }
+      ]
+    },
+    "9. Post Exploitation": {
+      "priority": "High",
+      "tools": [
+        { "name": "mimikatz", "url": "https://github.com/gentilkiwi/mimikatz", "install_command": "sudo apt install -y mimikatz" },
+        { "name": "empire", "url": "https://github.com/BC-SECURITY/Empire", "install_command": "git clone https://github.com/BC-SECURITY/Empire.git" },
+        { "name": "powersploit", "url": "https://github.com/PowerShellMafia/PowerSploit", "install_command": "git clone https://github.com/PowerShellMafia/PowerSploit.git" },
+        { "name": "bloodhound", "url": "https://github.com/BloodHoundAD/BloodHound", "install_command": "sudo apt install -y bloodhound" },
+        { "name": "chisel", "url": "https://github.com/jpillora/chisel", "install_command": "go install github.com/jpillora/chisel@latest" }
+      ]
+    },
+    "10. Reverse Engineering": {
+      "priority": "High",
+      "tools": [
+        { "name": "ghidra", "url": "https://github.com/NationalSecurityAgency/ghidra", "install_command": "sudo apt install -y ghidra" },
+        { "name": "radare2", "url": "https://github.com/radareorg/radare2", "install_command": "sudo apt install -y radare2" },
+        { "name": "apktool", "url": "https://github.com/iBotPeaches/Apktool", "install_command": "sudo apt install -y apktool" },
+        { "name": "jadx", "url": "https://github.com/skylot/jadx", "install_command": "sudo apt install -y jadx" },
+        { "name": "objdump", "url": "https://www.gnu.org/software/binutils/", "install_command": "sudo apt install -y binutils" }
+      ]
+    },
+    "11. Social Engineering": {
+      "priority": "Specialized",
+      "tools": [
+        { "name": "setoolkit", "url": "https://github.com/trustedsec/social-engineer-toolkit", "install_command": "sudo apt install -y setoolkit" },
+        { "name": "gophish", "url": "https://github.com/gophish/gophish", "install_command": "go install github.com/gophish/gophish@latest" },
+        { "name": "kingphisher", "url": "https://github.com/securestate/king-phisher", "install_command": "git clone https://github.com/securestate/king-phisher.git" }
+      ]
+    },
+    "12. Cryptography & Steganography": {
+      "priority": "Specialized",
+      "tools": [
+        { "name": "steghide", "url": "https://steghide.sourceforge.net/", "install_command": "sudo apt install -y steghide" },
+        { "name": "stegcracker", "url": "https://github.com/CedricVanSon/Stegcracker", "install_command": "pipx install stegcracker" },
+        { "name": "cyberchef", "url": "https://github.com/gchq/CyberChef", "install_command": "git clone https://github.com/gchq/CyberChef.git" },
+        { "name": "hash-identifier", "url": "https://gitlab.com/kalilinux/packages/hash-identifier", "install_command": "sudo apt install -y hash-identifier" }
+      ]
+    },
+    "13. Fuzzing": {
+      "priority": "High",
+      "tools": [
+        { "name": "gauplus", "url": "https://github.com/bp0lr/gauplus", "install_command": "go install github.com/bp0lr/gauplus@latest" },
+        { "name": "crlfuzz", "url": "https://github.com/dwisiswant0/crlfuzz", "install_command": "go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest" },
+        { "name": "wfuzz", "url": "https://github.com/xmendez/wfuzz", "install_command": "pipx install wfuzz" },
+        { "name": "ffuf", "url": "https://github.com/ffuf/ffuf", "install_command": "go install github.com/ffuf/ffuf@latest" },
+        { "name": "kiterunner", "url": "https://github.com/assetnote/kiterunner", "install_command": "go install github.com/assetnote/kiterunner/cmd/kr@latest" }
+      ]
+    },
+    "14. Forensics": {
+      "priority": "Specialized",
+      "tools": [
+        { "name": "autopsy", "url": "https://www.autopsy.com/", "install_command": "sudo apt install -y autopsy" },
+        { "name": "volatility3", "url": "https://github.com/volatilityfoundation/volatility3", "install_command": "pipx install volatility3" },
+        { "name": "binwalk", "url": "https://github.com/devttys0/binwalk", "install_command": "sudo apt install -y binwalk" },
+        { "name": "foremost", "url": "https://github.com/korczis/foremost", "install_command": "sudo apt install -y foremost" }
+      ]
+    },
+    "15. Reporting Tools": {
+      "priority": "High",
+      "tools": [
+        { "name": "notify", "url": "https://github.com/projectdiscovery/notify", "install_command": "go install github.com/projectdiscovery/notify/cmd/notify@latest" },
+        { "name": "dradis", "url": "https://dradisframework.com/", "install_command": "sudo apt install -y dradis" },
+        { "name": "faraday", "url": "https://github.com/infobyte/faraday", "install_command": "pipx install faradaysec" }
+      ]
+    },
+    "16. Hardware Hacking": {
+      "priority": "Specialized",
+      "tools": [
+        { "name": "flashrom", "url": "https://www.flashrom.org/", "install_command": "sudo apt install -y flashrom" },
+        { "name": "ubertooth", "url": "https://github.com/greatscottgadgets/ubertooth", "install_command": "sudo apt install -y ubertooth" },
+        { "name": "gnuradio", "url": "https://www.gnuradio.org/", "install_command": "sudo apt install -y gnuradio" }
+      ]
+    }
+  },
+  "utilities_and_helpers": [
     { "name": "anew", "url": "https://github.com/tomnomnom/anew", "install_command": "go install github.com/tomnomnom/anew@latest" },
-    { "name": "meg", "url": "https://github.com/tomnomnom/meg", "install_command": "go install github.com/tomnomnom/meg@latest" },
-    { "name": "subjack", "url": "https://github.com/haccer/subjack", "install_command": "go install github.com/haccer/subjack@latest" },
-    { "name": "puredns", "url": "https://github.com/d3mondev/puredns", "install_command": "go install github.com/d3mondev/puredns@latest" },
-    { "name": "gospider", "url": "https://github.com/jaeles-project/gospider", "install_command": "go install github.com/jaeles-project/gospider@latest" },
-    { "name": "gowitness", "url": "https://github.com/sensepost/gowitness", "install_command": "go install github.com/sensepost/gowitness@latest" },
-    { "name": "padbuster", "url": "https://github.com/AonCyberLabs/PadBuster", "install_command": "go install github.com/AonCyberLabs/PadBuster@latest" },
-    { "name": "dirsearch", "url": "https://github.com/maurosoria/dirsearch", "install_command": "go install github.com/maurosoria/dirsearch@latest" },
-    { "name": "aquatone", "url": "https://github.com/michenriksen/aquatone", "install_command": "go install github.com/michenriksen/aquatone@latest" },
-    { "name": "linkfinder", "url": "https://github.com/GerbenJavado/LinkFinder", "install_command": "go install github.com/GerbenJavado/LinkFinder@latest" },
-    { "name": "masscan", "url": "https://github.com/robertdavidgraham/masscan", "install_command": "go install github.com/robertdavidgraham/masscan@latest" },
-    { "name": "github_subdomains", "url": "https://github.com/gwen001/github-subdomains", "install_command": "go install github.com/gwen001/github-subdomains@latest" },
-    { "name": "dnsgen", "url": "https://github.com/ProjectAnte/dnsgen", "install_command": "go install github.com/ProjectAnte/dnsgen@latest" },
+    { "name": "unfurl", "url": "https://github.com/tomnomnom/unfurl", "install_command": "go install github.com/tomnomnom/unfurl@latest" },
+    { "name": "qsreplace", "url": "https://github.com/tomnomnom/qsreplace", "install_command": "go install github.com/tomnomnom/qsreplace@latest" },
+    { "name": "uro", "url": "https://github.com/s0md3v/uro", "install_command": "pipx install uro" },
     { "name": "unew", "url": "https://github.com/dwisiswant0/unew", "install_command": "go install github.com/dwisiswant0/unew@latest" },
-    { "name": "crlfuzz", "url": "https://github.com/dwisiswant0/crlfuzz", "install_command": "go install github.com/dwisiswant0/crlfuzz@latest" },
+    { "name": "gf-patterns", "url": "https://github.com/1ndianl33t/Gf-Patterns", "install_command": "git clone https://github.com/1ndianl33t/Gf-Patterns.git" },
+    { "name": "git-dumper", "url": "https://github.com/arthaud/git-dumper", "install_command": "pipx install git-dumper" },
+    { "name": "linkfinder", "url": "https://github.com/GerbenJavado/LinkFinder", "install_command": "git clone https://github.com/GerbenJavado/LinkFinder.git" },
+    { "name": "secretfinder", "url": "https://github.com/m4ll0k/SecretFinder", "install_command": "git clone https://github.com/m4ll0k/SecretFinder.git" },
     { "name": "go_dork", "url": "https://github.com/dwisiswant0/go-dork", "install_command": "go install github.com/dwisiswant0/go-dork@latest" },
-    { "name": "nuclei-templates", "url": "https://github.com/projectdiscovery/nuclei-templates", "install_command": "go install github.com/projectdiscovery/nuclei-templates@latest" },
-    { "name": "gf-patterns", "url": "https://github.com/1ndianl33t/Gf-Patterns", "install_command": "go install github.com/1ndianl33t/Gf-Patterns@latest" },
-    { "name": "paramspider", "url": "https://github.com/devanshbatham/ParamSpider", "install_command": "go install github.com/devanshbatham/ParamSpider@latest" },
-    { "name": "hakrawler", "url": "https://github.com/hakluke/hakrawler", "install_command": "go install github.com/hakluke/hakrawler@latest" },
-    { "name": "waymore", "url": "https://github.com/xnl-h4ck3r/waymore", "install_command": "go install github.com/xnl-h4ck3r/waymore@latest" },
-    { "name": "mapcidr", "url": "https://github.com/projectdiscovery/mapcidr", "install_command": "go install github.com/projectdiscovery/mapcidr@latest" },
-    { "name": "corsy", "url": "https://github.com/s0md3v/Corsy", "install_command": "go install github.com/s0md3v/Corsy@latest" },
-    { "name": "Smuggler", "url": "https://github.com/defparam/smuggler", "install_command": "go install github.com/defparam/smuggler@latest" },
-    { "name": "git-dumper", "url": "https://github.com/arthaud/git-dumper", "install_command": "go install github.com/arthaud/git-dumper@latest" },
-    { "name": "secretfinder", "url": "https://github.com/m4ll0k/SecretFinder", "install_command": "go install github.com/m4ll0k/SecretFinder@latest" },
-    { "name": "testssl.sh", "url": "https://github.com/drwetter/testssl.sh", "install_command": "go install github.com/drwetter/testssl.sh@latest" },
-    { "name": "SUB-MUSTER", "url": "https://github.com/hackinter/SUB-MASTER.git", "install_command": "go install github.com/hackinter/SUB-MASTER.git@latest" },
-    { "name": "Dork-Master", "url": "https://github.com/hackinter/Dork-Master.git", "install_command": "go install github.com/hackinter/Dork-Master.git@latest" },
-    { "name": "LOXIA", "url": "https://github.com/hackinter/LOXIA.git", "install_command": "go install github.com/hackinter/LOXIA.git@latest" },
-    { "name": "WatcherPro", "url": "https://github.com/hackinter/WatcherPro.git", "install_command": "go install github.com/hackinter/WatcherPro.git@latest" },
-    { "name": "Jaeles", "url": "https://github.com/jaeles-project/jaeles", "install_command": "go install github.com/jaeles-project/jaeles@latest" },
-    { "name": "tplmap", "url": "https://github.com/epinna/tplmap", "install_command": "go install github.com/epinna/tplmap@latest" },
-    { "name": "xss_vibes", "url": "https://github.com/faiyazahmad07/xss_vibes.git", "install_command": "go install github.com/faiyazahmad07/xss_vibes.git@latest" },
-    { "name": "Loxs", "url": "https://github.com/coffinxp/loxs.git", "install_command": "go install github.com/coffinxp/loxs.git@latest" },
-    { "name": "PwnXSS", "url": "https://github.com/pwn0sec/PwnXSS.git", "install_command": "go install github.com/pwn0sec/PwnXSS.git@latest" },
-    { "name": "DOMinator", "url": "https://github.com/wisec/DOMinator.git", "install_command": "go install github.com/wisec/DOMinator.git@latest" },
-    { "name": "autorize", "url": "https://github.com/Quitten/Autorize", "install_command": "go install github.com/Quitten/Autorize@latest" },
-    { "name": "XSS-Validator", "url": "https://github.com/tijme/xss-validator", "install_command": "go install github.com/tijme/xss-validator@latest" },
-    { "name": "Kxss", "url": "https://github.com/Emoe/kxss", "install_command": "go install github.com/Emoe/kxss@latest" },
-    { "name": "BruteXSS", "url": "https://github.com/shawarkhanethicalhacker/BruteXSS", "install_command": "go install github.com/shawarkhanethicalhacker/BruteXSS@latest" }
+    { "name": "proxychains4", "url": "https://github.com/haad/proxychains", "install_command": "sudo apt install -y proxychains4" },
+    { "name": "tmux", "url": "https://github.com/tmux/tmux", "install_command": "sudo apt install -y tmux" },
+    { "name": "jq", "url": "https://github.com/stedolan/jq", "install_command": "sudo apt install -y jq" }
   ]
 }
